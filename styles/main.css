@@ -1,0 +1,68 @@
+html, body, h1, h2, h3, div, a, p {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-size: 100%;
+    font: inherit;
+}
+body {
+    background: #FFFFEE;
+}
+.header {
+    background: #FA00AD no-repeat center/100% url(../images/synthwave-9.jpeg);
+    padding: 40px 0 40px 0;
+    text-align: center;
+}
+.sub-header {
+    padding: 36px 60px 2px 60px;
+}
+.main-content {
+    padding: 0 60px 17px 60px;
+}
+h1 {
+    font-size: 55px;
+    font-weight: bolder;
+    font-family: Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-stretch: ultra-expanded;
+}
+h2 {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Helvetica, arial, sans-serif;
+    padding: 0 0 15px 0;
+    margin: 10px 0 20px 0;
+}
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Helvetica, arial, sans-serif;
+    padding: 0 0 10px 0;
+    margin: 10px 0 15px 0;
+}
+p {
+    font-size: 16px;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0 0 35px 0;
+}
+.nav {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Helvetica, arial, sans-serif;
+    padding: 0 60px 50px 60px;
+    text-align: center;
+}
+a {
+    color: black;
+}
+a:hover {
+    color: #FA00AD;
+}
+.main-nav {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Helvetica, arial, sans-serif;
+    padding: 80px 60px 50px 60px;
+    text-align: center;
+    line-height: 60px;
+}
