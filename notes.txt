@@ -1,0 +1,27 @@
+Sprint 2.1:
+
+Wishlist for github.io site:
+
+Having the background image on a page stay fixed in place while some of the content (e.g. the text) moves when you scroll down (e.g. http://www.csszengarden.com/202/)
+
+Boxes clearly separate (with white borders in between): http://www.csszengarden.com/109/
+
+Using a background image from a comic and putting text in the speech bubbles: http://www.csszengarden.com/099/
+
+Layout with an image at the top (with main title etc) stretching across the top, and the other stuff in three columns below (not taking up the whole width of the page): http://www.csszengarden.com/099/. Links to other designs with a slight background colour.
+
+The pointing hand that moves (next to  ‘VIEW ALL DESIGNS’) when you mouse over it: http://www.csszengarden.com/218/. Find out what :before and :after stuff does. Also the look of it as you scroll through - like pages in a word processor (or an old book).
+
+I like the layout of this one (with an image that stays in the same place at the top left, and the main text able to scroll. Like the colour scheme too. http://www.csszengarden.com/051/
+
+Dark background with lighter boxes that have dark text inside them: http://www.csszengarden.com/040/
+
+Really like the colour scheme & background image of this one (red) - also wondering about how they got the edge of the image to stretch out, repeating the very edge of it: http://www.csszengarden.com/008/. Want to do something like that. Also quite like the layout of this one.
+
+With this one, I quite like the boxes that change colour when you hover over them (links) as opposed to the text: http://nove.eu/. Also the text moves as you do this. Quite like the fact that the boxes just have white borders overlaying the image/video that’s behind the whole background, but they darken/turn blue (but still keep background image) when you hover over them.
+
+The scrolling is cool on this site: https://monopo.co.jp/. Scrolls a page with a white background up over the first page, but the background image on the first page doesn’t move.
+
+Love the colour scheme and background image on this page: https://www.caavadesign.com/. And the font of the main title is cool and goes with the background image somehow (seems retro). White text over the background image. This page also has boxes (links) that change colour when you hover over them as opposed to the text. Like the layout of the links - like tiles of different sizes, with one border around the whole thing and borders between them.
+
+Like the rotating background of this one: http://www.mammothbooth.com/. Plus the fonts, the little lightning bolts repeated, the colour scheme, the way the image changes when you hover over it.

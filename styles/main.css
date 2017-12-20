@@ -57,6 +57,8 @@ a {
 }
 a:hover {
     color: #FA00AD;
+    position: relative; 
+    right: -10px;
 }
 .main-nav {
     font-size: 30px;
