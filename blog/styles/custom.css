@@ -1,6 +1,3 @@
-
-
-
 html { 
     background: url("../../images/vapor9cropped5.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -9,35 +6,310 @@ html {
     background-size: cover;
   }
 
+  .header h1 {
+    /*float: right;*/
+    right: 0;
+    margin-top: 32px;
+    bottom: 0px;
+    width: 100%;
+  }
+  
   h1 {
-      text-align: center;
-      position: static;
-      margin-top: 27%;
-      color: #585552;
-      font-weight: medium;
-      font-size: 300%;
-      padding-bottom: 10%;
+    margin-top: 18%;
+    /*color: #595856;*/
+    /*color: #5C5D5F;*/
+    color: #595C60;
+    font-weight: bold;
+    /*text-transform: uppercase;*/
+    font-size: 3.4rem;
+    padding-bottom: 15%;
+    padding-left: 45%;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    right: 0;
+    text-shadow:
+    -1px -1px 0 #6EC3DF,
+    1px -1px 0 #6EC3DF,
+    -1px 1px 0 #6EC3DF,
+    1px 1px 0 #6EC3DF;  
   }
 
-  a {
-      text-align: center;
-      color: #585552;
-      text-decoration: none;
-      font-size: 150%;
+  .blogs {
+    /*bottom: 0px;*/
+    /*color: #585552;*/
+    color: #5C5D5F;
+    font-weight: medium;
+    padding-bottom: 10%;
+    padding-left: 35%;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    right: 0;
+  }
+
+  .blogs a {
+    text-align: center;
+    color: #6EC3DF;
+    text-decoration: none;
+    font-size: 150%;
+    padding-bottom: 45px;
+  }
+
+  .blogs a:hover {
+    /*color: #DC6FE6;*/
+    color: #CA91E4;
+  }
+
+  .container-footer {
+    /*bottom: 0px;*/
+    /*color: #585552;*/
+    color: #5C5D5F;
+    font-weight: medium;
+    padding-bottom: 10%;
+    padding-left: 35%;
+    margin-top: 35px;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    right: 0;
   }
 
   .container-footer a {
     text-align: center;
-    color: #585552;
+    color: #6EC3DF;
     text-decoration: none;
-    font-size: 100%;
+    font-size: 120%;
+    padding-bottom: 45px;
+    text-transform: uppercase;
 }
+
+.container-footer a:hover {
+    /*color: #DC6FE6;*/
+    color: #CA91E4;
+  }
   
   .container-footer > .row {
       margin-top: 5%;
   }
 
-  
+  .one-link {
+    padding-bottom: 15px;
+  }
+
+  .just-link {
+    padding: 11px 8px 7px 8px;
+    background: #585552;
+    /*-moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);*/
+  }
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .header h1 {
+        /*float: right;*/
+        right: 0;
+        margin-top: 32px;
+        bottom: 0px;
+        width: 100%;
+      }
+      
+      h1 {
+        margin-top: 18%;
+        /*color: #595856;*/
+        /*color: #5C5D5F;*/
+        color: #595C60;
+        font-weight: bold;
+        /*text-transform: uppercase;*/
+        font-size: 3.7rem;
+        padding-bottom: 15%;
+        padding-left: 45%;
+        box-sizing: border-box;
+        width: 100%;
+        text-align: center;
+        right: 0;
+        text-shadow:
+        -1px -1px 0 #6EC3DF,
+        1px -1px 0 #6EC3DF,
+        -1px 1px 0 #6EC3DF,
+        1px 1px 0 #6EC3DF;  
+      }
+    
+      .blogs {
+        /*bottom: 0px;*/
+        /*color: #585552;*/
+        color: #5C5D5F;
+        font-weight: medium;
+        padding-bottom: 10%;
+        padding-left: 35%;
+        box-sizing: border-box;
+        width: 100%;
+        text-align: center;
+        right: 0;
+      }
+    
+      .blogs a {
+        text-align: center;
+        color: #6EC3DF;
+        text-decoration: none;
+        font-size: 150%;
+        padding-bottom: 45px;
+      }
+    
+      .blogs a:hover {
+        /*color: #DC6FE6;*/
+        color: #CA91E4;
+      }
+    
+      .container-footer {
+        /*bottom: 0px;*/
+        /*color: #585552;*/
+        color: #5C5D5F;
+        font-weight: medium;
+        padding-bottom: 10%;
+        padding-left: 35%;
+        margin-top: 35px;
+        box-sizing: border-box;
+        width: 100%;
+        text-align: center;
+        right: 0;
+      }
+    
+      .container-footer a {
+        text-align: center;
+        color: #6EC3DF;
+        text-decoration: none;
+        font-size: 120%;
+        padding-bottom: 45px;
+        text-transform: uppercase;
+    }
+    
+    .container-footer a:hover {
+        /*color: #DC6FE6;*/
+        color: #CA91E4;
+      }
+      
+      .container-footer > .row {
+          margin-top: 5%;
+      }
+    
+      .one-link {
+        padding-bottom: 15px;
+      }
+    
+      .just-link {
+        padding: 11px 8px 7px 8px;
+        background: #585552;
+        /*-moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+        -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+        box-shadow: 1px 2px 3px rgba(0,0,0,.5);*/
+      }
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .header h1 {
+        /*float: right;*/
+        right: 0;
+        margin-top: 32px;
+        bottom: 0px;
+        width: 100%;
+      }
+      
+      h1 {
+        margin-top: 18%;
+        /*color: #595856;*/
+        /*color: #5C5D5F;*/
+        color: #595C60;
+        font-weight: bold;
+        /*text-transform: uppercase;*/
+        font-size: 4.3rem;
+        padding-bottom: 15%;
+        padding-left: 45%;
+        box-sizing: border-box;
+        width: 100%;
+        text-align: center;
+        right: 0;
+        text-shadow:
+        -1px -1px 0 #6EC3DF,
+        1px -1px 0 #6EC3DF,
+        -1px 1px 0 #6EC3DF,
+        1px 1px 0 #6EC3DF;  
+      }
+    
+      .blogs {
+        /*bottom: 0px;*/
+        /*color: #585552;*/
+        color: #5C5D5F;
+        font-weight: medium;
+        padding-bottom: 10%;
+        padding-left: 35%;
+        box-sizing: border-box;
+        width: 100%;
+        text-align: center;
+        right: 0;
+      }
+    
+      .blogs a {
+        text-align: center;
+        color: #6EC3DF;
+        text-decoration: none;
+        font-size: 150%;
+        padding-bottom: 45px;
+      }
+    
+      .blogs a:hover {
+        /*color: #DC6FE6;*/
+        color: #CA91E4;
+      }
+    
+      .container-footer {
+        /*bottom: 0px;*/
+        /*color: #585552;*/
+        color: #5C5D5F;
+        font-weight: medium;
+        padding-bottom: 10%;
+        padding-left: 35%;
+        margin-top: 35px;
+        box-sizing: border-box;
+        width: 100%;
+        text-align: center;
+        right: 0;
+      }
+    
+      .container-footer a {
+        text-align: center;
+        color: #6EC3DF;
+        text-decoration: none;
+        font-size: 120%;
+        padding-bottom: 45px;
+        text-transform: uppercase;
+    }
+    
+    .container-footer a:hover {
+        /*color: #DC6FE6;*/
+        color: #CA91E4;
+      }
+      
+      .container-footer > .row {
+          margin-top: 5%;
+      }
+    
+      .one-link {
+        padding-bottom: 15px;
+      }
+    
+      .just-link {
+        padding: 11px 8px 7px 8px;
+        background: #585552;
+        /*-moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+        -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+        box-shadow: 1px 2px 3px rgba(0,0,0,.5);*/
+      }
+
+}
+
 
 /* body {
     background-image: url("../../images/vapor9cropped.jpg");
@@ -49,7 +321,7 @@ html {
  
     /* Note: Design for a width of 1280px */
  
-    @media only screen and (min-width: 1280px) {
+    /*@media only screen and (min-width: 1280px) {
         .container                                  { width: 1280px; }
         .container .column,
         .container .columns                         { margin-left: 10px; margin-right: 10px;  }
@@ -78,7 +350,7 @@ html {
         .container .one-third.column                { width: 406px; }
         .container .two-thirds.column               { width: 822px; }
  
-        /* Offsets */
+        
         .container .offset-by-one                   { padding-left: 80px; }
         .container .offset-by-two                   { padding-left: 160px; }
         .container .offset-by-three                 { padding-left: 240px; }
@@ -95,5 +367,5 @@ html {
         .container .offset-by-fourteen              { padding-left: 1120px; }
         .container .offset-by-fifteen               { padding-left: 1200px; }
     }
-
+*/
 
