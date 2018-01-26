@@ -9,7 +9,7 @@ html {
   .header h1 {
     /*float: right;*/
     right: 0;
-    margin-top: 32px;
+    margin-top: 60px;
     bottom: 0px;
     width: 100%;
   }
@@ -21,7 +21,7 @@ html {
     color: #595C60;
     font-weight: bold;
     /*text-transform: uppercase;*/
-    font-size: 3.4rem;
+    font-size: 4.3rem;
     padding-bottom: 15%;
     padding-left: 45%;
     box-sizing: border-box;
@@ -52,7 +52,7 @@ html {
     text-align: center;
     color: #6EC3DF;
     text-decoration: none;
-    font-size: 150%;
+    font-size: 200%;
     padding-bottom: 45px;
   }
 
@@ -60,6 +60,8 @@ html {
     /*color: #DC6FE6;*/
     color: #CA91E4;
   }
+
+  
 
   .container-footer {
     /*bottom: 0px;*/
