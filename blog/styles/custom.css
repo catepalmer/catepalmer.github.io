@@ -21,7 +21,7 @@ html {
     color: #595C60;
     font-weight: bold;
     /*text-transform: uppercase;*/
-    font-size: 9.0rem;
+    font-size: 8.0rem;
     padding-bottom: 15%;
     padding-left: 45%;
     box-sizing: border-box;
@@ -34,26 +34,44 @@ html {
     -1px 1px 0 #6EC3DF,
     1px 1px 0 #6EC3DF;  
   }
-
+/*
   .blogs {
     /*bottom: 0px;*/
     /*color: #585552;*/
-    color: #5C5D5F;
-    font-weight: medium;
+    /*color: #5C5D5F;*/
+    /*font-weight: medium;
     padding-bottom: 10%;
     padding-left: 35%;
     box-sizing: border-box;
     width: 100%;
     text-align: center;
     right: 0;
-  }
+  }*/
 
   .blogs a {
     text-align: center;
-    color: #6EC3DF;
+    /*color: #6EC3DF;*/
+    /*color: #5C5D5F;*/
     text-decoration: none;
-    font-size:500%;
+    font-size:350%;
     padding-bottom: 45px;
+    
+
+    
+    color: #595C60;
+    font-weight: bold;
+    /*text-transform: uppercase;*/
+    padding-bottom: 15%;
+    padding-left: 45%;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    right: 0;
+    text-shadow:
+    -1px -1px 0 #6EC3DF,
+    1px -1px 0 #6EC3DF,
+    -1px 1px 0 #6EC3DF,
+    1px 1px 0 #6EC3DF;  
   }
 
   .blogs a:hover {
