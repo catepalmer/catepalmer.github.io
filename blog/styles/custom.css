@@ -21,12 +21,12 @@ html {
     color: #595C60;
     font-weight: bold;
     /*text-transform: uppercase;*/
-    font-size: 8.0rem;
+    font-size: 7.0rem;
     padding-bottom: 15%;
     padding-left: 45%;
     box-sizing: border-box;
     width: 100%;
-    text-align: center;
+    text-align: left;
     right: 0;
     text-shadow:
     -1px -1px 0 #6EC3DF,
@@ -323,6 +323,7 @@ html {
       .just-link {
         padding: 11px 8px 7px 8px;
         background: #585552;
+        text-align: center;
         /*-moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
         -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
         box-shadow: 1px 2px 3px rgba(0,0,0,.5);*/
