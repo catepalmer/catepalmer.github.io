@@ -27,6 +27,48 @@ h1 {
     2px 2px 0 #6EC3DF;
 }
 
+h3 {
+  right: 0;
+  margin-top: 60px;
+  bottom: 0px;
+  width: 100%;
+  color: #595C60;
+  font-weight: bold;
+  font-size: 8.0rem;
+  padding-bottom: 15%;
+  padding-left: 45%;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  right: 0;
+  text-shadow:
+  -2px -2px 0 #6EC3DF,
+  2px -2px 0 #6EC3DF,
+  -2px 2px 0 #6EC3DF,
+  2px 2px 0 #6EC3DF;
+}
+
+p {
+  right: 0;
+  margin-top: 60px;
+  bottom: 0px;
+  width: 100%;
+  color: #595C60;
+  font-weight: bold;
+  font-size: 8.0rem;
+  padding-bottom: 15%;
+  padding-left: 45%;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  right: 0;
+  text-shadow:
+  -2px -2px 0 #6EC3DF,
+  2px -2px 0 #6EC3DF,
+  -2px 2px 0 #6EC3DF,
+  2px 2px 0 #6EC3DF;
+}
+
 a {
     text-align: center;
     text-decoration: none;
