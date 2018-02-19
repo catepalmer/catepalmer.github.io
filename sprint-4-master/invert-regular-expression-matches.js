@@ -1,0 +1,1 @@
+var expression = /\S/g;
