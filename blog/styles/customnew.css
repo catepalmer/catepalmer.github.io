@@ -4,6 +4,7 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    margin-right: 20%;
   }
 
 h1 {
@@ -212,3 +213,5 @@ a {
     height: 40%;
     width: 40%;
   }
+
+  
