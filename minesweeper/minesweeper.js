@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', startGame)
 
 // Define your `board` object here!
-/* var board = {
+ var board = {
 
 cells:[
 {row: 0, col: 0, isMine: "", isMarked: "", hidden: true},
@@ -15,7 +15,7 @@ cells:[
 {row: 2, col: 2, isMine: "", isMarked: "", hidden: true}
 ]
 }
-*/
+
 
 var board;
 var gridSize = 6;
