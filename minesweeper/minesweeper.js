@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', startGame)
 
 // Define your `board` object here!
- var board = {
+/* var board = {
 
 cells:[
 {row: 0, col: 0, isMine: "", isMarked: "", hidden: true},
@@ -15,7 +15,7 @@ cells:[
 {row: 2, col: 2, isMine: "", isMarked: "", hidden: true}
 ]
 }
-
+*/
 
 var board;
 var gridSize = 6;
@@ -38,7 +38,7 @@ function makeBoard () {
 }
 
 function startGame () {
-
+  makeBoard ()
 // Don't remove this function call: it makes the game work!
 
 // - In startGame, above lib.initBoard(), write a for loop.
@@ -50,14 +50,13 @@ function startGame () {
 // Assign the result of countSurroundingMines to a property on each cell
 // object. The new property should be called surroundingMines.
 
-document.addEventListener('click', checkForWin);
-document.addEventListener('contextmenu', checkForWin);
-
-
 for (var i = 0; i < board.cells.length; i++) {
 board.cells[i].surroundingMines = countSurroundingMines (board.cells[i]);
 }
 lib.initBoard();
+
+document.addEventListener('click', checkForWin);
+document.addEventListener('contextmenu', checkForWin);
 
 }
 
@@ -81,7 +80,7 @@ for (i = 0; i < board.cells.length; i++) {
     }
   }
   lib.displayMessage('You win!');
-  winSound();
+  
 
 }
 
@@ -93,7 +92,7 @@ for (i = 0; i < board.cells.length; i++) {
 //
 // It will return cell objects in an array. You should loop through
 // them, counting the number of times `cell.isMine` is true.
-function countSurroundingMines (cell) {
+
 
 // Further down in the file you'll see the function countSurroundingMines.
 // Your job is to define it so it returns the number of cells around the current
@@ -113,6 +112,20 @@ function countSurroundingMines (cell) {
 // count variable if it is.
 // Once you have the correct count, return it (return count).
 // Once you've got the counts working to your satisfaction, commit your code!
+
+
+function endGame () {
+  for (i = 0; i < board.cells.length; i++) {
+    var check = board.cells[i];
+    if (!check.isMine && !check.hidden && !check.marked) {
+      clickSound();
+    } else if (check.isMine && !check.hidden) {
+    lostSound();
+    }
+  }
+}
+
+function countSurroundingMines (cell) {
 
 var surroundingCells = lib.getSurroundingCells(cell.row, cell.col);
 var count = 0;
@@ -138,6 +151,7 @@ return count;
 function resetBoard () {
     removeListeners ();
     restart ();
+    startGame();
   }
   
   function restart () {
